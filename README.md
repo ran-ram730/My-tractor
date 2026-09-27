@@ -1,1 +1,211 @@
-# My-tractor
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Teachers' Day - Amardeep Sir</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 2.8rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 30px;
+            color: #1e3c72;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 60px;
+            height: 3px;
+            background-color: #ff6b6b;
+            display: block;
+            margin: 8px auto 0;
+            border-radius: 2px;
+        }
+
+        /* Gallery Grid */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .card-body {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .card-body p {
+            font-size: 0.95rem;
+            color: #555;
+            font-weight: 500;
+        }
+
+        /* Wishes Section */
+        .wishes-box {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .wishes-box p {
+            font-size: 1.1rem;
+            color: #444;
+            font-style: italic;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1e3c72;
+            color: white;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Happy Teachers' Day!</h1>
+        <p>Dedicated to our wonderful teacher — <strong>Amardeep Sir</strong></p>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Celebration Memories</h2>
+        
+        <div class="gallery">
+            <div class="card">
+                <img src="630.jpg" alt="Amardeep Sir with Student">
+                <div class="card-body">
+                    <p>Special Moments with Amardeep Sir</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="659.jpg" alt="Cake Cutting Preparation">
+                <div class="card-body">
+                    <p>Teachers & Students Celebration</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="1409.jpg" alt="Classroom Group Photo">
+                <div class="card-body">
+                    <p>Group Photo in Classroom</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="658.jpg" alt="Students Selfie">
+                <div class="card-body">
+                    <p>Student Group Selfie</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="633.jpg" alt="Photo with Amardeep Sir">
+                <div class="card-body">
+                    <p>Memorable Moment with Sir</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="575.jpg" alt="Gift Presentation">
+                <div class="card-body">
+                    <p>Gifts & Celebrations</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="655.jpg" alt="Cake Cutting Event">
+                <div class="card-body">
+                    <p>Cake Cutting Ceremony</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="628.jpg" alt="Amardeep Sir & Student">
+                <div class="card-body">
+                    <p>Celebration at School</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="645.jpg" alt="Classroom Gathering">
+                <div class="card-body">
+                    <p>Enjoying Teachers' Day Together</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="wishes-box">
+            <h3>A Special Message for Amardeep Sir</h3>
+            <p>"Thank you Amardeep Sir for being a great teacher, mentor, and guide. Happy Teachers' Day!"</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>Created with ❤️ by Students for Amardeep Sir</p>
+    </footer>
+
+</body>
+</html>
